@@ -1,4 +1,4 @@
-# copyWebsiteGrantsReach
+# GrantsReach copy
 
 This website was my first website copy. It only concerns html and css and uses bootstrap libraries to make the website responsive to all screen types. 
 
