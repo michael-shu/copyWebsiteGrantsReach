@@ -4,4 +4,4 @@ This website was my first website copy. It only concerns html and css and uses b
 
 The website is hosted by github pages and can be found [here](https://michael-shu.github.io/copyWebsiteGrantsReach/)
 
-The copy website can be found [here](https://resources4me.com/gr/housing/)
+For comparison, the actual website can be found [here](https://resources4me.com/gr/housing/)
