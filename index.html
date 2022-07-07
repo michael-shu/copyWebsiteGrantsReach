@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resources4You</title>
+    <link rel = "stylesheet" href = "bootstrap-5.2.0-beta1-dist/css/bootstrap.css"/>
+    <link rel = "stylesheet" href = "style.css"/>
+</head>
+
+<body>
+    <div class = "container" id = "topContainer">
+        <div class = "row">
+            <img src = "images/logo.png" class = "mx-auto d-block" style="width:175px;" >
+        </div>
+
+        <div class = "row">
+            <div class = "col" id = "topDiv">
+                
+                <div class = "col-xl-4 col-md-6 col-11 col-centered" id = "inputBox" >
+                <h1>Trusted Resources For Housing Needs</h1>
+                <p style = "color:grey;">Sign up for free to explore financial opportunities that help with home improvement and rent expenses in your area.</p>
+                    
+                    <form>
+
+                        <label for = "name" class = "form-label">NAME</label>
+                        <input required type = "text" name = "name" title = "Input must be first and last name with one space inbetween. Only letters are allowed" 
+                            class = "form-control invalid" pattern = "^[a-zA-Z]{2,}\s[a-zA-Z]{2,}$">
+
+                        <label for = "email" class = "form-label">EMAIL</label>
+                        <input required type = "email" name = "email" title = "Input must contain an @ and a .com" class = "form-control invalid" 
+                        pattern = "(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
+
+                        <label for = "zipcode" class = "form-label">ZIP CODE</label>
+                        <input required type = "text" name = "zipcode" title = "Input must be a 5 digit zip code. Only numbers are allowed" class = "form-control invalid"  
+                        pattern = "^[0-9]{5}" oninput= "javascript: if(this.value.length > 5) this.value = this.value.slice(0,5);" >
+
+                   
+                    <p style = "font-size:12px;">By clicking “Sign Up“ you are agreeing to the <a href = "https://google.com" target = "_blank">Terms & Conditions</a> and 
+                        <a href = "https://google.com" target = "_blank">Privacy Policy</a>.</p>
+                        
+                    <div class = "d-grid gap-2 col-6 mx-auto">
+                        <button type = "submit" class = "btn btn-dark">Sign Up</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <div class = "container" id = "midContainer">
+        <div class = "row">
+            <img id = "check" src = "images/check.svg" >
+            <h2>Find The Help You Need</h2>
+            <p>Answer a few quick questions about your situation to get matched to resources you may be eligible to receive.</p>
+        </div>
+    </div>
+
+    <div class = "container" id = "bottomContainer">
+        <div class = "row">
+
+            <div class = "col-sm-12 col-md-4">
+                
+                <div class = "card">
+                    <h5 class = "card-title"> 
+                        <div class = "image-container"> <img class = "icon" src = "images/voucher.png"> </div>Vouchers</h5>
+                    <p class = "card-text">
+                        Explore resources that assist low income families, the elderly and disabled afford a safe place to live. 
+                        These programs are offered by a number of institutions in an effort to help others achieve a healthier, more stable living environment.
+                    </p>
+                    
+                </div>
+
+            </div>
+
+            <div class = "col-sm-12 col-md-4">
+
+                <div class = "card">
+                    <h5 class = "card-title"> 
+                        <div class = "image-container"> <img class = "icon" src = "images/housingGrant.png"> </div>Housing Grants</h5>
+                    <p class = "card-text">
+                        Search through a wide range of trusted financial relief opportunities including assistance for first time home 
+                        buyers, single family home repairs and more. We’ve built a free tool to make finding the help you need simple.
+                    </p>
+                    
+                </div>
+
+            </div>
+            <div class = "col-sm-12 col-md-4">
+
+                <div class = "card">
+                    <h5 class = "card-title"> 
+                        <div class = "image-container"> <img class = "icon" src = "images/lowIncomeResources.png"> </div>Low Income Resources</h5>
+                    <p class = "card-text">
+                        Browse local opportunities that may help eligible low income individuals stay afloat and avoid monetary crisis. 
+                        We feature exclusive content and offers to help families get connected to programs in their region.
+                    </p>   
+                </div>
+            </div>
+        </div>
+
+        <div class = "row">
+
+            <div class = "col-sm-12 col-md-4">
+                <div class = "card">
+                    <div class = "row">
+                    <h5 class = "card-title"> 
+                        <div class = "image-container"> <img class = "icon" src = "images/emergencyHousing.png"> </div>Emergency Housing</h5>
+                    </div>
+                    <p class = "card-text">
+                        There are a variety of instances in which families face crisis and need urgent assistance. 
+                        See available solutions from nonprofits that help individuals who qualify avoid eviction and provide financial support.
+                    </p>   
+                </div>
+            </div>
+
+            <div class = "col-sm-12 col-md-4">
+                <div class = "card">
+                    <h5 class = "card-title"> 
+                        <div class = "image-container"> <img class = "icon" src = "images/rentRelief.png"> </div>Rent Relief Programs</h5>
+                    <p class = "card-text">
+                        For many individuals and families, finding organizations that assist renters or landlords can be a challenge. 
+                        Alleviate the stress of your search by utilizing our tool that will instantly provide you with programs you may qualify for.
+                    </p>   
+                </div>
+            </div>
+
+            <div class = "col-sm-12 col-md-4">
+                <div class = "card">
+                    <h5 class = "card-title"> 
+                        <div class = "image-container"> <img class = "icon" src = "images/homeRepair.png"> </div>Home Repair</h5>
+                    <p class = "card-text">
+                        Whether you own or rent a house, there are simple options that can help you save money on bills and 
+                        receive free home repairs. Gain access to the list of assistance programs near you.
+                    </p>   
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <div class = "container">
+        <div class = "card" id = "disclaimer">
+           <h2 class = "card-header" id = "disclaimerTitle">Disclaimer</h2>
+
+           <div id = "disclaimerText">
+           <div>Grantsreach is a privately held for-profit entity and has no affiliation or relationship with the United States Government or U.S. Department of Education. 
+            Grantsreach offers links to other third-party websites and services           
+            <span class = "collapse" id = "readMore"> as helpful resources to locate internet content that may be of interest to you. We may receive an affiliate 
+            commission for referrals by you using such links. We pay our operating costs through our advertising revenue by having third-party affiliate offers. Grantsreach advises that you 
+            not pay for any third part service that is provided to third parties’ websites and/or services through Grantsreach are managed by such third parties. For more information on 
+            government education grants, visit https://studentaid.ed.gov/sa/types/grants-scholarships/pell</span></div>
+
+                <a href="#readMore" id = "rmButton" data-bs-toggle="collapse" aria-expanded="false" aria-controls="readMore">
+                    <span class="collapsed">
+                      Show more
+                    </span>
+                    <span class="expanded">
+                      Show Less
+                    </span>
+                  </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script> 
+</body>
+</html>
